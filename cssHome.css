@@ -30,8 +30,25 @@ p{
     display: flex;
     list-style-type: none;
     align-items: center;
-    justify-content:center ;
+    justify-content:left ;
     text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cabeçalho2{
+ 
+    /* margin-left: 110px; */
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content:right ;
+    text-align: center;
+    
 }
 
 .Link{
@@ -39,7 +56,7 @@ p{
     font-family:"Anton", sans-serif;
     text-decoration: none;
     color: #000000;
-    font-size: 18px;
+    font-size: 15px;
    
 }
 
@@ -68,8 +85,23 @@ p{
 
 .cartao {
     width: 40%; /* Ajuste a largura conforme necessário */
+    
 }
 .image img {
     max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
+    
+}
+
+.moeda{
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border: none; /* Remove a borda padrão */
+    height: 1px; /* Define a altura da linha */
+    background-color: #d7a746;
+  
 }
