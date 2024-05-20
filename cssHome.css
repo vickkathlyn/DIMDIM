@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.dimdim{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.dim {
+    display: flex;
+    flex-direction: column; /* Altere para coluna */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 70vh; 
+    width: 300px;
+    margin-left: 150px;
+   
+          
+}
+
+p{
+    font-family: "Anton", sans-serif;
+
+}
+.cabeçalho{
+ 
+    
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+}
+
+.Link{
+    margin-right: 50px;
+    font-family:"Anton", sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+   
+}
+
+.custom-button {
+    font-family:"Anton", sans-serif;
+    background-color:#d19011;
+    color: #703d00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+    transition: box-shadow 0.3s ease; 
+}
+  
+
+.caixa{
+    display: flex;
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    height: 80vh;
+    width: 1100px;
+   
+   
+}
+
+.cartao {
+    width: 40%; /* Ajuste a largura conforme necessário */
+}
+.image img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
