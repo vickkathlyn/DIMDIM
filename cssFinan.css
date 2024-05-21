@@ -26,11 +26,10 @@
     width: 220px; /* Ajuste conforme necessário */
     height: 220px; /* Ajuste conforme necessário */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #745D01;
+    color: #7e624b;
     font-family: "Roboto", sans-serif;
     padding: 25px 20px;
     font-style: normal;
-    font-weight: 50; 
 
     align-items: center;
     align-content: center;
@@ -45,7 +44,7 @@
 }
 
 .bloco p{
-    font-weight: 50; 
+    font-weight: 400; 
 }
 
 .lado2 h1{
