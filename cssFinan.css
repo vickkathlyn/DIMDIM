@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.principal{
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    font-family: "Anton", sans-serif;
+}
+
+.lado2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+    margin-left: auto; 
+    padding: 100px 200px;
+    perspective: 1000px;
+    
+}
+
+.bloco{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 220px; /* Ajuste conforme necessário */
+    height: 220px; /* Ajuste conforme necessário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #745D01;
+    font-family: "Roboto", sans-serif;
+    padding: 25px 20px;
+    font-style: normal;
+    font-weight: 50; 
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    transition: transform 0.3s;
+   
+}
+
+.bloco:hover {
+    transform: translateZ(20px);
+}
+
+.bloco p{
+    font-weight: 50; 
+}
+
+.lado2 h1{
+    font-weight: 500;
+   font-size: 23px;
+}
+
+.lado1{
+    margin-left: 100px;
+    height: 85vh;
+    width: 85vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.imgFinan{
+  
+    width: 500px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+
