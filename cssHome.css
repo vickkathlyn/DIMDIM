@@ -22,6 +22,7 @@
 
 p{
     font-family: "Anton", sans-serif;
+    font-size: 18px;
 
 }
 .cabeçalho{
@@ -56,7 +57,7 @@ header{
     font-family:"Anton", sans-serif;
     text-decoration: none;
     color: #000000;
-    font-size: 15px;
+    font-size: 18px;
    
 }
 
@@ -70,8 +71,16 @@ header{
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
     transition: box-shadow 0.3s ease; 
+    font-size: 17px;
 }
   
+.caixaPai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* ou qualquer altura desejada */
+    
+}
 
 .caixa{
     display: flex;
@@ -79,7 +88,7 @@ header{
     align-items: center; /* Alinha os itens verticalmente no centro */
     height: 80vh;
     width: 1100px;
-   
+  /*   background-color: antiquewhite; */
    
 }
 
@@ -87,11 +96,7 @@ header{
     width: 40%; /* Ajuste a largura conforme necessário */
     
 }
-.image img {
-    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    
-}
+
 
 .moeda{
     width: 70px;
