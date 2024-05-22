@@ -6,6 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="cssHome.css">
     <link rel="stylesheet" href="cssLogin.css">
+    <script src="jsLogin.js"></script>
 </head>
 <body>
 
@@ -36,12 +37,12 @@
         <div class="caixalogin">
             <form action="#" method="post">
                 <label for="nome">Agência</label> <br>
-                <input type="text" id="agencia" name="agencia" required> <br>
+                <input type="text" id="agencia" name="agencia" required maxlength="4"> <br>
 
                 <label for="nome">Conta</label> <br>
-                <input type="text" id="conta" name="conta" required> <br>
+                <input type="text" id="conta" name="conta" required maxlength="6"> <br>
 
-                <button type="submit">Login</button> <br>
+                <button onclick="validarDados();"  id="cadastrarButton" type="submit">Login</button> <br>
 
                 <a href="#">Nâo existe? cadastra-se</a> <br>
             </form>    

@@ -31,6 +31,8 @@
     font-family: "Space Mono", monospace;
 }
 
+
+
 .empressPai h1{
     font-family:"Anton", sans-serif;
     font-weight: 400;
@@ -79,8 +81,8 @@ button{
 }
 
 input{
-    border-radius: 25px;
-    text-decoration: none;
+  border-radius: 25px;
+  text-decoration: none;
     border: none;
     outline: none;
     background-color: #ddc66b;
@@ -88,7 +90,11 @@ input{
     font-family: "Space Mono", monospace;
     font-size: 18px;
     text-align: center;
- }
+}
+
+input:focus {
+  background-color: #ddc66b; /* Cor de fundo quando em foco */
+}
 
 
 /*

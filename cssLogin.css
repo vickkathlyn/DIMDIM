@@ -42,6 +42,7 @@ input{
    background-color: #efefef;
    padding: 13px 70px ;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
 }
 
 
@@ -55,6 +56,11 @@ input{
 input[type=text]:focus {
    border: 1px solid #a07b37 !important; /* Cor da borda ao focar */
 }
+
+input:focus {
+   background-color: #efefef; /* Cor de fundo quando em foco */
+   text-align: center;
+ }
 
 button{
    background-color: #e4c239;
