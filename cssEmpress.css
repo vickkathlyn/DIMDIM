@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.empressPai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* ou qualquer altura desejada */
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.logo{
+    font-family:"Anton", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-decoration: none;
+    padding-right: 30px;
+ }
+.titulo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh; /* Altura igual à altura da janela */
+    margin: 0; 
+     font-family:"Anton", sans-serif;
+     color: #372c00;
+}
+.empressPai p{
+    font-family: "Space Mono", monospace;
+}
+
+.empressPai h1{
+    font-family:"Anton", sans-serif;
+    font-weight: 400;
+    color: #745D01;
+    display: inline-block; /* Necessário para que o line-height funcione corretamente */
+    line-height: initial;
+    
+   
+}
+
+.empress{
+    background-color: #FCF6DB;
+    width: 25vw;
+    height: 55vh;
+    border-radius: 20px;
+    
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Coloca os itens em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+  }
+
+
+
+button{
+    background-color: #d19011;
+    color: #745D01;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-family:"Anton", sans-serif;
+
+}
+.bot {
+
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 0; /* Empurra a div para o final da .empress */
+}
+.bot p{
+    font-size: 12px;
+    margin: auto;
+}
+
+input{
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: #ddc66b;
+    padding: 13px 20px ;
+    font-family: "Space Mono", monospace;
+    font-size: 18px;
+    text-align: center;
+ }
+
+
+/*
+isso aqui é sobre o botão deslizante, foi copiado
+*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bd6a0b;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #034174;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+  /* acabou o notão aqui */

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divs com Espaço em Torno</title>
+  <style>
+     .container {
+      text-align: center; /* Alinha o texto ao centro */
+      margin-top: 20px; /* Espaço acima da div pai */
+    }
+
+    .title {
+      font-size: 24px; /* Tamanho do título */
+      margin-bottom: 20px; /* Espaço abaixo do título */
+    }
+
+    .flex-container {
+      display: flex; /* Ativa o flexbox */
+      flex-direction: column; /* Empilha os itens verticalmente */
+    }
+
+    .box {
+      display: flex; /* Ativa o flexbox */
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center; /* Centraliza verticalmente */
+      background-color: #FCF6DB;
+      width: 25vw;
+      height: 55vh;
+      border-radius: 20px;
+      margin-bottom: 20px; /* Espaço entre as divs */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Título Centralizado</div>
+    <div class="flex-container">
+      <div class="box">
+        <h1>Saque-aniversário FGTS</h1> <br>
+        <p>Antecipe até 12 parcelas do saque-aniversário com taxas <b> a partir de 1,30% ao mês</b></p> <br>
+        <button class="button">Simule agora</button>
+      </div>
+      <div class="box">
+        <h1>Digite seu CPF</h1><br>
+        <input type="text" id="cpf" name="cpf" class="input-field" placeholder="000.000.000-00"> <br>
+       
+        <label class="switch">
+            <input type="checkbox"> 
+            <span class="slider"></span>
+            <p>Lembrar CPF para o acesso</p> <br>
+        </label>
+
+        <button class="button">enviar</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

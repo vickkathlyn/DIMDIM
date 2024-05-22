@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emprestimos</title>
     <link rel="stylesheet" href="cssHome.css">
+    <link rel="stylesheet" href="cssEmpress.css">
 </head>
 <body>
 
@@ -12,11 +13,11 @@
         <nav>
             <ul>
                 <div class="cabeçalho">
-                    <img class="moeda" src="img/moedaS.png" alt="">
+                    <li><a class="logo" href="index.html">DimDim</a></li>
                     <li><a class="Link" href="index.html">Home</a></li>
                     <li><a class="Link" href="#">investimentos</a></li>
                     <li><a class="Link" href="financiamento.html">financiamentos</a></li>
-                    <li><a class="Link" href="empres.html"><span style="color: #a1700e;">Empréstimos</span></a></li>
+                    <li><a class="Link" href="empres.html">emprestimos</a></li>
                     <li><a class="Link" href="#">ajuda</a></li>
                 </div>
             </ul>
@@ -30,13 +31,32 @@
 
     <hr style="background-color: #64470e;">
 
+    
+    <h1 class="titulo">Simule seu empréstimos com DimDim</h1> <br>
     <div class="empressPai">
-        <div class="empress1">
 
+      
+
+        <div class="empress">
+            <h1>Saque-aniversário FGTS</h1> <br>
+            <p>Antecipe até 12 parcelas do saque-aniversário com taxas <b> a partir de 1,30% ao mês</b></p> <br>
+            <button class="button">Simule agora</button>
         </div>
 
-        <div class="empress2">
+        <div class="empress">
+            <h1>Digite seu CPF</h1><br>
+            <input type="text" id="cpf" name="cpf" class="input-field" placeholder="000.000.000-00"> <br>
+           
+            <div class="bot">
+                <label class="switch">
+                    <input type="checkbox"> 
+                    <span class="slider"></span>
+                </label>
+                <p>Lembrar CPF para o acesso</p> <br>
+            </div>
 
+            <button class="button">enviar</button>
+            
         </div>
     </div>
     
