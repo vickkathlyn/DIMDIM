@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie Sua Conta</title>
+    <link rel="stylesheet" href="styleCadastrar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="cabeçalho">
+                    <img class="moeda" src="img/moedaS.png" href="index.html" alt="">
+                    <li><a class="Link" href="index.html">Home</a></li>
+                    <li><a class="Link" href="investimento.html">Investimentos</a></li>
+                    <li><a class="Link" href="financiamento.html">Financiamentos</a></li>
+                    <li><a class="Link" href="empres.html">Emprestimos</a></li>
+                    <li><a class="Link" href="#">Ajuda</a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <div class="cabeçalho2">
+            <li><a class="Link" href="login.html">Login</a></li>
+            <li><a class="Link" href="cadastrar.html"><span style="color: #a1700e;">Cadastra-se</span></a></li>
+        </div>
+    </header>  
+    <main>
+        <div class="left-section">
+            <img src="img/moedasSeta.png" alt="Hand with card and coins">
+        </div>
+        <div class="right-section">
+            <h1 class="dimdim"> Crie Sua Conta</h1>
+            <p class="dimtext">Já está registrado? <a href="login.html">Login</a></p>
+            <form id="signup-form" action="#">
+                <input type="text" id="name" placeholder="Entre com seu nome" required>
+                <input type="email" id="email" placeholder="Entre com seu email" required>
+                <input type="text" id="cpf" placeholder="Entre com seu CPF" required>
+                <input type="date" id="dob" placeholder="Entre com sua data de nascimento" required>
+                <button type="submit" class="custom-button">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+    <script src="scriptCadastro.js"></script>
+</body>
+</html>
