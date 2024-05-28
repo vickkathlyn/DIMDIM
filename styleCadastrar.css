@@ -16,6 +16,14 @@ header{
     
 }
 
+.logo{
+    font-family:"Anton", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-decoration: none;
+    padding-right: 30px;
+ }
+
 .cabeçalho2{
     display: flex;
     list-style-type: none;
@@ -108,7 +116,7 @@ main {
 
 .left-section {
     flex: 1;
-    background-color: #d9b44a;
+    background-color: #C29B00;
     display: flex;
     justify-content: center;
     align-items: center;
