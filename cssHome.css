@@ -82,6 +82,13 @@ header{
     text-decoration: none;
     color: #000000;
 }
+
+.sla{
+    font-family:"Anton", sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
   
 .caixaPai{
     display: flex;
